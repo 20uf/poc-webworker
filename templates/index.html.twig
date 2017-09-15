@@ -1,0 +1,17 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <div class="container">
+        <h3>Web worker</h3>
+        <button class="btn btn-default" id="start_worker">Start worker</button>
+        <button class="btn btn-default" id="ping_worker">Ping worker</button>
+        <button class="btn btn-default" id="stop_worker">Stop worker</button>
+
+        <div class="container-alerts"></div>
+
+    </div>
+{% endblock %}
+
+{% block javascripts %}
+    <script src="assets/js/main.js"></script>
+{% endblock %}
